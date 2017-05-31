@@ -1,0 +1,108 @@
+/*
+Theme Name: My Blog Theme
+Author: Eric Fortney
+Author URI: http://www.efortney.com
+Version: 1.0
+*/
+
+
+body {
+    background-color: white;
+}
+
+#headerbar {
+    background-color: #262626;
+    font-family: 'Raleway';
+    width: 100%;
+    padding: 0;
+}
+
+span#first {
+    color: #e0e0e0;
+    font-weight: 100;
+    
+}
+
+span#second {
+    color: #0178bc;
+    font-weight: 400;
+}
+
+h1#h1head {
+    float: left;
+    font-size: 30px;
+    margin: 0;
+}
+
+p#phead {
+    float: right;
+    color: #0178bc;
+    font-size: 13px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    padding: 0;
+    font-style: italic;
+}
+
+div#cover {
+    background: url('images/cover.jpg') top left no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+div.post {
+    background-color: #e0e0e0;
+    margin: 50px 20px 50px 0;
+    padding: 10px 30px 10px 30px;
+    box-shadow: -10px -10px 10px -10px;
+    box-sizing: border-box;
+}
+
+h2.post-title a {
+    text-decoration: none;
+    color: #0178bc;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2.post-title a:hover {
+    color: #006aa7;
+}
+
+div.post-content {
+    font-family: Georgia;
+}
+
+div#sidebar {
+    margin: 0 auto;
+    padding: 2px;
+    border-left: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
+
+ul#icons {
+    list-style-type: none; !important
+}
+
+ul#icons li {
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+
+img.social {
+    width: 30px;
+    height: 30px;
+}
+
+p#description {
+    font-family: Georgia;
+    color: #393939;
+    font-size: 11px;
+    padding: 10px;
+    margin: 10px
+}
