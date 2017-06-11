@@ -2,7 +2,7 @@
 Theme Name: My Blog Theme
 Author: Eric Fortney
 Author URI: http://www.efortney.com
-Version: 1.1
+Version: 1.2
 */
 
 
@@ -140,4 +140,13 @@ p#description {
 
 div.new-post {
     margin: 10px;
+}
+
+img#profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: #0178bc solid;
+    position: relative;
+    top: 55%;
 }
